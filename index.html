@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="tiulo">Jogo da Forca</h1>
+        <canvas id="forcaCanvas" width="200" height="250"></canvas>
+
+        <div id="palavraContainer"></div>
+        <div>
+            <label for="letraInput">Digite uma letra:</label>
+            <input type="text" id="letraInput" maxlength="1" autofocus />
+            <button id="btnChutar">Chutar</button>
+        </div>
+
+        <p>Letras chutadas: <span id="letrasChutadas"></span></p>
+        <p id="mensagem"></p>
+        <button id="btnReiniciar">Reiniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
