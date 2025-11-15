@@ -4,7 +4,8 @@ body {
     background: linear-gradient(black, black, gold);
     text-align: center;
     margin: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
+    padding-top: 50px;
 }
 
 .container {
